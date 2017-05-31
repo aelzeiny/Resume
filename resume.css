@@ -1,0 +1,53 @@
+#inspiration {
+  top: -2px;
+  left: -2px;
+}
+
+.full-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 813px;
+  height: 1053px;
+  border: 1px solid black;
+}
+
+.full-screen.container {
+  background-color: rgba(240, 248, 255, 0.54);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 45px;
+  padding-left: 57px;
+  padding-right: 55px;
+}
+
+#header-name {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 4.9em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.header-titles {
+  font-family: 'Poiret One', cursive;
+  font-size: .2em;
+  position: relative;
+  margin-bottom: 17px;
+  top: -17px;
+}
+
+/***** HEADER ******/
+img#header-mugshot {
+  height: 174px;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 174px;
+  margin-top: 12px;
+  margin-right: 15px;
+  margin-left: 68px;
+  margin-bottom: 5px;
+  display: none;
+}
