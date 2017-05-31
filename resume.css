@@ -1,8 +1,11 @@
 /****** Partial CSS Reset ********/
 
-h1, h2, h3 {
+h1, h2, h3, ul, h4{
   margin: 0;
+}
 
+ul {
+  margin-bottom: 5px;
 }
 
 #inspiration {
@@ -135,4 +138,18 @@ article section:first-of-type {
 article {
   width: 474px;
   padding-left: 20px;
+}
+
+article section li {
+  font-size: 11.5px;
+}
+.borderless {
+  border: 0;
+}
+h4 { 
+  font-weight: 300;
+  font-size: .7em;
+}
+article ul {
+  padding-left: 24px;
 }
