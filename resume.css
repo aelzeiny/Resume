@@ -22,6 +22,28 @@
   padding-right: 55px;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+}
+
+/***** HEADER ******/
+header {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 146px;
+  border-bottom: solid 2px gray;
+}
+
+img#header-mugshot {
+  width: 130px; 
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
 #header-name {
   font-family: 'BenchNine', sans-serif;
   font-size: 4.9em;
@@ -39,15 +61,42 @@
   top: -17px;
 }
 
-/***** HEADER ******/
-img#header-mugshot {
-  height: 174px;
-  border-radius: 50%;
-  border: 1px solid;
-  width: 174px;
+#header-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  font-size: 12px;
+}
+.header-icon i {
+  text-align: left;
+  margin-right: 10px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-size: 25px;
+}
+
+/**** NAV ****/
+
+nav {
+  background-color: rgba(0,255,0,.15);
+  width: 176px;
+  height: 100%;
+  margin-right: 25px;
+  display: inline-block;
+}
+nav .title {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 32px;
+  letter-spacing: 3px;
   margin-top: 12px;
-  margin-right: 15px;
-  margin-left: 68px;
-  margin-bottom: 5px;
-  display: none;
+  margin-bottom: 8px;
 }
