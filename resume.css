@@ -1,3 +1,10 @@
+/****** Partial CSS Reset ********/
+
+h1, h2, h3 {
+  margin: 0;
+
+}
+
 #inspiration {
   top: -2px;
   left: -2px;
@@ -24,9 +31,14 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: red;
+  color: #6d7ba5;
 }
 
+.body {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
 /***** HEADER ******/
 header {
   display: inline-flex;
@@ -87,16 +99,40 @@ img#header-mugshot {
 /**** NAV ****/
 
 nav {
-  background-color: rgba(0,255,0,.15);
   width: 176px;
-  height: 100%;
-  margin-right: 25px;
+  padding-right: 25px;
   display: inline-block;
+  margin-top: 23px;
+  border-right: 2px solid gray;
 }
-nav .title {
+section {
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+nav section:first-of-type {
+  margin-top: -20px;
+}
+nav p {
+  font-size: 13px;
+  margin: 0;
+}
+h2 {
   font-family: 'BenchNine', sans-serif;
   font-size: 32px;
   letter-spacing: 3px;
   margin-top: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+}
+nav .indent {
+  margin-left: 10px;
+}
+
+/**** Articles ****/
+
+article section:first-of-type {
+  margin-top: 16px;
+}
+article {
+  width: 474px;
+  padding-left: 20px;
 }
