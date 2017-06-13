@@ -133,9 +133,15 @@ h2 {
 nav .indent {
   margin-left: 10px;
 }
+.skills {
+  list-style-type: none;
+  padding-left: 2px;
+}
+.edu {
+  margin-top: 10px;
+}
 
 /**** Articles ****/
-
 article section:first-of-type {
   margin-top: 16px;
 }
@@ -151,9 +157,15 @@ article section li {
   border: 0;
 }
 h4 {
-  font-weight: 300;
+  font-weight: bold;
   font-size: .7em;
 }
 article ul {
   padding-left: 24px;
+}
+span.links {
+  float: right;
+}
+span.links i {
+  margin: 2px;
 }
