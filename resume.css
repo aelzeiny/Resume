@@ -23,7 +23,7 @@ ul {
 }
 
 .full-screen.container {
-  background-color: rgba(240, 248, 255, 0.54);
+  /*background-color: rgba(240, 248, 255, 0.54);*/
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -53,7 +53,7 @@ header {
 }
 
 img#header-mugshot {
-  width: 130px; 
+  width: 130px;
   height: 130px;
   border-radius: 50%;
   border: 1px solid;
@@ -68,12 +68,16 @@ img#header-mugshot {
   text-align: center;
 }
 
+.header-last-name {
+  font-size: .5em;
+  margin: -30px;
+}
+
 .header-titles {
   font-family: 'Poiret One', cursive;
   font-size: .2em;
   position: relative;
-  margin-bottom: 17px;
-  top: -17px;
+  top: 25px;
 }
 
 #header-icons {
@@ -146,7 +150,7 @@ article section li {
 .borderless {
   border: 0;
 }
-h4 { 
+h4 {
   font-weight: 300;
   font-size: .7em;
 }
