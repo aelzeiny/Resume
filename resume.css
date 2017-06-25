@@ -4,6 +4,11 @@ h1, h2, h3, ul, h4{
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 ul {
   margin-bottom: 5px;
 }
@@ -19,11 +24,11 @@ ul {
   left: 0;
   width: 813px;
   height: 1053px;
-  border: 1px solid black;
+  border: 1px solid #809ffb;
 }
 
 .full-screen.container {
-  /*background-color: rgba(240, 248, 255, 0.54);*/
+  background-color: rgba(240, 248, 255, 0.54);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
