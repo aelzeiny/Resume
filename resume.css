@@ -210,3 +210,6 @@ span.links {
 span.links i {
   margin: 2px;
 }
+span.links a {
+  display: inline;
+}
