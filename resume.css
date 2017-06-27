@@ -147,6 +147,17 @@ nav .indent {
 .edu {
   margin-top: 10px;
 }
+.star-ranking {
+    position: absolute;
+    right: 0;
+    top: 0;
+    letter-spacing: -1px;
+    font-size: .8em;
+}
+
+.skills li {
+    position: relative;
+}
 
 /**** Articles ****/
 article section:first-of-type {
