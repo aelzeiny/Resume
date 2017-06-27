@@ -35,8 +35,8 @@ ul {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   padding-top: 45px;
-  padding-left: 57px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 body {
@@ -153,11 +153,34 @@ nav .indent {
     top: 0;
     letter-spacing: -1px;
     font-size: .8em;
+    overflow-x: hidden;
+}
+
+.star-ranking .star-5 {
+  overflow-x: hidden;
+  width: 100%;
+}
+.star-ranking .star-4-5 {
+  overflow-x: hidden;
+  width: 90%;
+}
+.star-ranking .star-4 {
+  overflow-x: hidden;
+  width: 80%;
+}
+.star-ranking .star-3-5 {
+  overflow-x: hidden;
+  width: 70%;
+}
+.star-ranking .star-3 {
+  overflow-x: hidden;
+  width: 60%;
 }
 
 .skills li {
     position: relative;
 }
+
 
 /**** Articles ****/
 article section:first-of-type {
