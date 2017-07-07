@@ -26,7 +26,7 @@ ul {
   left: 0;
   width: 813px;
   height: 1053px;
-  border: 1px solid #809ffb;
+  /*border: 1px solid #809ffb;*/
 }
 
 .full-screen.container {
@@ -212,4 +212,8 @@ span.links i {
 }
 span.links a {
   display: inline;
+}
+
+.coverletter {
+  font-size: 12px;
 }
