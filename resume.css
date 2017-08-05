@@ -86,6 +86,7 @@ img#header-mugshot {
   font-size: .2em;
   position: relative;
   top: 25px;
+  font-weight: 600;
 }
 
 #header-icons {
