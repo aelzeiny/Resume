@@ -30,7 +30,7 @@ ul {
 }
 
 .full-screen.container {
-  background-color: rgba(240, 248, 255, 0.54);
+  /*background-color: rgba(240, 248, 255, 0.54);*/
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -41,7 +41,7 @@ ul {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #6d7ba5;
+  /*color: #6d7ba5;*/
 }
 
 .body {
@@ -56,20 +56,20 @@ header {
   width: 100%;
   justify-content: space-between;
   height: 146px;
-  border-bottom: solid 2px gray;
+  border-bottom: solid 2px rgb(237, 89, 92);
 }
 
 img#header-mugshot {
   width: 130px;
   height: 130px;
-  border-radius: 50%;
-  border: 1px solid;
+  /*border-radius: 50%;
+  border: 1px solid;*/
 }
 
 #header-name {
   font-family: 'BenchNine', sans-serif;
   font-size: 4.9em;
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 3px;
   margin-top: -15px;
   text-align: center;
@@ -78,6 +78,7 @@ img#header-mugshot {
 .header-last-name {
   font-size: .5em;
   margin: -30px;
+  color: rgb(237, 89, 92);
 }
 
 .header-titles {
@@ -114,14 +115,14 @@ img#header-mugshot {
 
 nav {
   width: 176px;
-  padding-right: 25px;
+  padding-right: 16px;
   display: inline-block;
   margin-top: 23px;
-  border-right: 2px solid gray;
+  border-right: 2px solid rgb(237, 89, 92);
 }
 section {
   padding-bottom: 10px;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid rgb(237, 89, 92);
 }
 nav section:first-of-type {
   margin-top: -20px;
@@ -135,6 +136,7 @@ h2 {
   font-size: 32px;
   letter-spacing: 3px;
   margin-top: 12px;
+  color: rgb(237, 89, 92);
   /*margin-bottom: 5px;*/
 }
 nav .indent {
@@ -146,7 +148,7 @@ nav .indent {
 }
 .edu {
   /*margin-top: 10px;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 .star-ranking {
     position: absolute;
@@ -199,7 +201,7 @@ article section li {
   border: 0;
 }
 h4 {
-  font-weight: bold;
+  font-weight: 500;
   font-size: .7em;
 }
 article ul {
