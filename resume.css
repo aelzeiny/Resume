@@ -214,3 +214,9 @@ span.links i {
 span.links a {
   display: inline;
 }
+
+/*** Cover Letter ***/
+.coverletter p {
+  font-weight: 100;
+  font-size: 13px;
+}
