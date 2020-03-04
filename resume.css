@@ -114,7 +114,7 @@ img#header-mugshot {
 
 nav {
   width: 176px;
-  padding-right: 25px;
+  padding-right: 16px;
   display: inline-block;
   margin-top: 23px;
   border-right: 2px solid gray;
@@ -138,11 +138,18 @@ h2 {
   /*margin-bottom: 5px;*/
 }
 nav .indent {
-  margin-left: 10px;
+  margin-left: 16px;
+}
+.skills-section h3 {
+  margin-left: 8px;
 }
 .skills {
   list-style-type: none;
   padding-left: 2px;
+  margin-left: 16px;
+}
+.education-section h3 {
+  margin-left: 8px;
 }
 .edu {
   /*margin-top: 10px;*/
