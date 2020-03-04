@@ -62,8 +62,9 @@ header {
 img#header-mugshot {
   width: 130px;
   height: 130px;
-  border-radius: 50%;
+  border-radius: 16px;
   border: 1px solid;
+  background-color: #6d7ba5;
 }
 
 #header-name {
@@ -208,6 +209,7 @@ article section li {
 h4 {
   font-weight: bold;
   font-size: .7em;
+  margin-bottom: 4px;
 }
 article ul {
   padding-left: 24px;
