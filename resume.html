@@ -68,6 +68,10 @@
                             <p>Hadoop Ecosystem</p>
                             <div class="star-ranking"></div>
                         </li>
+                        <li>
+                            <p>Spark / Apache Beam</p>
+                            <div class="star-ranking"></div>
+                        </li>
                     </ul>
                     <h3>Backend</h3>
                     <ul class="skills">
@@ -122,11 +126,11 @@
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>Java</p>
+                            <p>Go</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>C#</p>
+                            <p>Java</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
@@ -134,7 +138,7 @@
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>JavaScript</p>
+                            <p>TypeScript / JavaScript</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
@@ -157,7 +161,7 @@
                     <h2>CERTIFICATES</h2>
                     <ul class="skills">
                         <li>
-                            <p>AWS Associate Developer</p>
+                            <p>AWS Associate <br />&emsp;Developer</p>
                         </li>
                         <li>
                             <p>Engineer-In-Training</p>
@@ -169,13 +173,18 @@
                 <section>
                     <h2>PROFESSIONAL EXPERIENCE</h2>
                     <h3>CORE INFRA IN LIVING ROOM @ YouTube (Google)</h3>
-                    <h4>Senior Software Engineer • San Bruno, CA • NOVEMBER 2020 - PRESENT</h4>
+                    <h4>Software Engineer • San Bruno, CA • NOVEMBER 2020 - PRESENT</h4>
                     <ul>
-                        <li>Deployed canary release that ships before the full-binary. If the quality metrics of the canary do not pass, the full release is delayed</li>
-                        <li>Devised method of statistical analysis to auto-debug shipped binaries</li>
-                        <li>Reduced crash-rate for YouTube Living Room App</li>
-                        <li>Reduced latency for YouTube Living Room App</li>
-                        <li>Reduced binary-sizes for YouTube Living Room App</li>
+                        <li>Deployed canary release that ships before the full-binary. If the quality metrics of the
+                            canary do not pass, the full release is delayed</li>
+                        <li>Reduced crash-rate, latency, and binary-sizes for YouTube TV App by &gt; 15% each</li>
+                        <li>Devised distributed method of statistical analysis to auto-debug crashes.
+                        </li>
+                        <li>Strong background in distributed stack tracing and statistics.</li>
+                        <li>Shipped C++ code to collect offuscated stack traces from TV App, along with pprof and
+                            flamegraph tooling in TypeScript to debug crashes.</li>
+                        <li>Rather than sampling one TV continously, each TV only takes one stack trace, across millions
+                            of devices</li>
                     </ul>
                     <h3>DATA INFRA TECH LEAD @ LeanTaaS</h3>
                     <h4>STAFF SOFTWARE ENGINEER • SANTA CLARA, CA • JUNE 2017 - PRESENT</h4>
@@ -183,7 +192,8 @@
                         <li>Tech Lead of team of >10 engineers</li>
                         <li>Architected data pipeline from scratch for both batch and stream data on AWS</li>
                         <li>Designed resilient jobs to extract highly sensitive (PHI) data from hospitals</li>
-                        <li>Introduced new technologies like Apache Airflow, and AWS Athena/Lambda/Fargate with minimal supervision</li>
+                        <li>Introduced new technologies like Apache Airflow, and AWS Athena/Lambda/Fargate with minimal
+                            supervision</li>
                         <li>Deprecated graph (OrientDB) database and Spark cluster to reduce AWS billing</li>
                         <li>Upheld high standards with code reviews, 1-on-1s, unit and "Data Quality" tests</li>
                         <li>At LeanTaaS data is the product. The pipeline can never fail for any reason</li>
@@ -193,18 +203,21 @@
                     <ul>
                         <li>Full-Stack in ASP.NET + Entity Framework, Java Spring + Hibernate, and React</li>
                         <li>Conceptualized, designed, and built user and staff friendly automation websites</li>
-                        <li>Saved 160 weekly staff-hours by overhauling all procedures and systems to tailored digital alternatives</li>
+                        <li>Saved 160 weekly staff-hours by overhauling all procedures and systems to tailored digital
+                            alternatives</li>
                     </ul>
                 </section>
                 <section class="borderless">
-                    <h2>SOFTWARE ENGINEERING PROJECTS</h2>
+                    <h2>HOBBIEST PROJECTS</h2>
                     <div>
                         <h3>
                             Apache Airflow - Open Source Contributions
                             <span class="links">
-                <a href="https://github.com/aelzeiny/airflow-aws-executors"><i class="fa fa-github"></i></a>
-                <a href="https://github.com/apache/airflow/pull/7030"><i class="fa fa-external-link-square"></i></a>
-              </span>
+                                <a href="https://github.com/aelzeiny/airflow-aws-executors"><i
+                                        class="fa fa-github"></i></a>
+                                <a href="https://github.com/apache/airflow/pull/7030"><i
+                                        class="fa fa-external-link-square"></i></a>
+                            </span>
                             <h4>Apache Airflow, AWS Fargate, Docker</h4>
                             <ul>
                                 <li>Conceptualized the AWS Batch Executor as a core component to Airflow</li>
@@ -216,28 +229,17 @@
                         <h3>
                             Twitch Roulette Arena
                             <span class="links">
-                <a href="https://github.com/aelzeiny/RandomTwitchersPlays"><i class="fa fa-github"></i></a>
-                <a href="http://twitcharena.live/"><i class="fa fa-external-link-square"></i></a>
-              </span>
+                                <a href="https://www.elzeiny.io/projects/TwitchRoulette-RemotecontrolmyNintendoSwitch"><i
+                                        class="fa fa-github"></i></a>
+                                <a href="http://twitcharena.live/"><i class="fa fa-external-link-square"></i></a>
+                            </span>
                             <h4>AWS Serverless, WebRTC, WebSockets, GStreamer, Java, Python, JS, Docker</h4>
                             <ul>
-                                <li>Anyone in the world can play my Nintendo Switch and stream.</li>
+                                <li>Anyone in the world can play my Nintendo Switch from their browser.</li>
                                 <li>Video (WebRTC) chat room with Switch in &lt1 second latency.</li>
-                                <li>100% AWS Serverless.</li>
+                                <li>Keyboard presses (Websocket) become JoyCon controller inputs.</li>
                             </ul>
                         </h3>
-                    </div>
-                    <div>
-                        <h3>
-                            This Resume
-                            <span class="links">
-                  <a href="https://github.com/aelzeiny/Resume/blob/master/resume.html" target="_blank"><i class="fa fa-github"></i></a>
-                  <a href="http://www.elzeiny.io" target="_blank"><i class="fa fa-external-link-square"></i></a>
-                </span>
-                        </h3>
-                        <ul>
-                            <li>Brought to you in HTML & CSS</li>
-                        </ul>
                     </div>
                 </section>
             </article>
