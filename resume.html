@@ -22,7 +22,7 @@
                     Elzeiny
                 </div>
                 <div class="header-titles">
-                    Software Engineer
+                    Frontend Engineer
                 </div>
             </div>
             <ul id="header-icons">
@@ -50,26 +50,26 @@
             <nav>
                 <section class="skills-section">
                     <h2>SKILLS</h2>
-                    <h3>Data</h3>
+                    <h3>FRONTEND</h3>
                     <ul class="skills">
                         <li>
-                            <p>Airflow</p>
+                            <p>React</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>Kafka</p>
+                            <p>Angular</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>Spark</p>
+                            <p>Svelte</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>Hadoop Ecosystem</p>
+                            <p>SolidJS</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
-                            <p>Spark / Apache Beam</p>
+                            <p>Signals & Virtual DOM</p>
                             <div class="star-ranking"></div>
                         </li>
                     </ul>
@@ -96,31 +96,12 @@
                             <div class="star-ranking"></div>
                         </li>
                     </ul>
-                    <h3>Databases</h3>
-                    <ul class="skills">
-                        <li>
-                            <p>MySQL, PostgreSQL</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                        <li>
-                            <p>Elastic Search</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                        <li>
-                            <p>Redis</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                        <li>
-                            <p>Neo4j, OrientDB</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                        <li>
-                            <p>Presto, Hive, Impala</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                    </ul>
                     <h3>Languages</h3>
                     <ul class="skills">
+                        <li>
+                            <p>TypeScript / JavaScript</p>
+                            <div class="star-ranking"></div>
+                        </li>
                         <li>
                             <p>Python</p>
                             <div class="star-ranking"></div>
@@ -135,10 +116,6 @@
                         </li>
                         <li>
                             <p>Ruby</p>
-                            <div class="star-ranking"></div>
-                        </li>
-                        <li>
-                            <p>TypeScript / JavaScript</p>
                             <div class="star-ranking"></div>
                         </li>
                         <li>
@@ -172,22 +149,22 @@
             <article>
                 <section>
                     <h2>PROFESSIONAL EXPERIENCE</h2>
-                    <h3>CORE INFRA IN LIVING ROOM @ YouTube (Google)</h3>
+                    <h3>CORE FRONTEND IN LIVING ROOM @ YouTube (Google)</h3>
                     <h4>Software Engineer • San Bruno, CA • NOVEMBER 2020 - PRESENT</h4>
                     <ul>
-                        <li>Deployed canary release that ships before the full-binary. If the quality metrics of the
-                            canary do not pass, the full release is delayed</li>
+                        <li>Developed React-like framework called Zylon for YouTube on TVs in TypeScript.</li>
+                        <li>Migrated many components from React-like state management to Signals to increase app
+                            navigation responsiveness by 10%.</li>
+                        <li>Collaborated with UX/UI designers to improve user experience by implementing responsive
+                            design and interactive features.</li>
                         <li>Reduced crash-rate, latency, and binary-sizes for YouTube TV App by &gt; 15% each</li>
-                        <li>Devised distributed method of statistical analysis to auto-debug crashes.
-                        </li>
-                        <li>Strong background in distributed stack tracing and statistics.</li>
-                        <li>Shipped C++ code to collect offuscated stack traces from TV App, along with pprof and
-                            flamegraph tooling in TypeScript to debug crashes.</li>
-                        <li>Rather than sampling one TV continously, each TV only takes one stack trace, across millions
-                            of devices</li>
+                        <li>Reduced memory utilization by resolving JS memory leaks in app by 18%, and created memory
+                            utilization monitoring tools.</li>
+                        <li>Introduced Canary in CI/CD pipeline to halt releases with production issues before they
+                            become wide-spead.</li>
                     </ul>
                     <h3>DATA INFRA TECH LEAD @ LeanTaaS</h3>
-                    <h4>STAFF SOFTWARE ENGINEER • SANTA CLARA, CA • JUNE 2017 - PRESENT</h4>
+                    <h4>STAFF SOFTWARE ENGINEER • SANTA CLARA, CA • JUNE 2017 - NOVEMBER 2020</h4>
                     <ul>
                         <li>Tech Lead of team of >10 engineers</li>
                         <li>Architected data pipeline from scratch for both batch and stream data on AWS</li>
@@ -202,7 +179,7 @@
                     <h4>SOFTWARE ENGINEER • SAN FRANCISCO, CA • JUNE 2016 – MARCH 2017</h4>
                     <ul>
                         <li>Full-Stack in ASP.NET + Entity Framework, Java Spring + Hibernate, and React</li>
-                        <li>Conceptualized, designed, and built user and staff friendly automation websites</li>
+                        <li>Conceptualized, designed, and built three staff-friendly automation websites</li>
                         <li>Saved 160 weekly staff-hours by overhauling all procedures and systems to tailored digital
                             alternatives</li>
                     </ul>
@@ -211,33 +188,33 @@
                     <h2>HOBBIEST PROJECTS</h2>
                     <div>
                         <h3>
-                            Apache Airflow - Open Source Contributions
+                            JavaScript Benchmark for Incremental DOM
                             <span class="links">
-                                <a href="https://github.com/aelzeiny/airflow-aws-executors"><i
+                                <a href="https://github.com/krausest/js-framework-benchmark"><i
                                         class="fa fa-github"></i></a>
-                                <a href="https://github.com/apache/airflow/pull/7030"><i
+                                <a href="https://github.com/krausest/js-framework-benchmark/pull/1316"><i
                                         class="fa fa-external-link-square"></i></a>
                             </span>
-                            <h4>Apache Airflow, AWS Fargate, Docker</h4>
+                            <h4>Incremental DOM, React, JS</h4>
                             <ul>
-                                <li>Conceptualized the AWS Batch Executor as a core component to Airflow</li>
-                                <li>Built library for auto-scaling, serverless worker nodes</li>
+                                <li>This repository is used to benchmark many JS frameworks like Angular, React, Vue,
+                                    MillionJS, Svelte, SolidJS, etc. </li>
+                                <li>Added Google's IncrementalDOM (a VDOM library) to this open-source JavaScript
+                                    benchmark
+                                    so it can be compared side-by-side with other frameworks.
+                                </li>
                             </ul>
                         </h3>
                     </div>
                     <div>
                         <h3>
-                            Twitch Roulette Arena
+                            This Resume
                             <span class="links">
-                                <a href="https://www.elzeiny.io/projects/TwitchRoulette-RemotecontrolmyNintendoSwitch"><i
-                                        class="fa fa-github"></i></a>
-                                <a href="http://twitcharena.live/"><i class="fa fa-external-link-square"></i></a>
+                                <a href="https://github.com/aelzeiny/resume"><i
+                                        class="fa fa-external-link-square"></i></a>
                             </span>
-                            <h4>AWS Serverless, WebRTC, WebSockets, GStreamer, Java, Python, JS, Docker</h4>
                             <ul>
-                                <li>Anyone in the world can play my Nintendo Switch from their browser.</li>
-                                <li>Video (WebRTC) chat room with Switch in &lt1 second latency.</li>
-                                <li>Keyboard presses (Websocket) become JoyCon controller inputs.</li>
+                                <li>Written entirely in HTML and CSS</li>
                             </ul>
                         </h3>
                     </div>
